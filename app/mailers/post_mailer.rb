@@ -5,7 +5,7 @@ class PostMailer < ApplicationMailer
 
     mail(
       to: "#{user.email}",
-      subject: "[Members Only] New Post #{post.title} added.",
+      subject: "[Members Only] New Post #{post.title}",
     )
   end
 end
